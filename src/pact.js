@@ -7,6 +7,7 @@ import _ from 'lodash'
 
 export default class Pact {
   constructor() {
+    logger.debug('Creating Pact')
     this.providers = {};
     this.consumber = '';
   }
@@ -18,7 +19,7 @@ export default class Pact {
   }
 
   providerState(stateName, providerStateTests) {
-    logger.debug('Running provider state ' + stateName);
+    logger.debug('1Running provider state ' + stateName);
     logger.debug('Test', this.consumber);
     let currentState = new ProviderState(this.consumber, stateName, providerStateTests);
     return currentState.run();
