@@ -23,8 +23,8 @@
     "babel-core": "^6.4.0",
     "babel-plugin-transform-class-properties": "^6.4.0",
     "body-parser": "^1.14.2",
-    "child-process-promise": "^1.1.0",
-    "es6-promise": "^3.0.2",
+    "child-process-promise": "^2.2.0",
+    "es6-promise": "^4.0.5",
     "express": "^4.13.3",
     "lodash": "^4.0.0",
     "morgan": "^1.6.1",
@@ -36,6 +36,6 @@
     "chai": "^3.4.1",
     "chai-things": "^0.2.0",
     "expect": "^1.13.4",
-    "mocha": "^2.3.4"
+    "mocha": "^3.2.0"
   }
 }
